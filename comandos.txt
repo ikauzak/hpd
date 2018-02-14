@@ -1,0 +1,15 @@
+git branch aula
+git checkout aula
+touch strigus
+git add .
+git commit -m "adicionado new branch e strigus" strigus - criar o commit das alterações
+git push origin aula - subir esse arquivo para o git.
+git diff master aula - verifica as diferenças entre a branch master e a branch aula
+git merge --no-ff aula - junta os arquivos
+git branch -d aula - deleta a branch aula
+git push origin :aula - para fazer o push da deleção do push
+git reset origin/master - Volta para antes do commit
+git reset --hard origin/master - Volta para o último commit
+git log --pretty=oneline - traz o log de commits
+git log -p
+
